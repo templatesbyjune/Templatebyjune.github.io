@@ -1,0 +1,114 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fdfd; /* Light teal background */
+    color: #004d4d; /* Dark teal text */
+}
+
+/* Header / Navigation */
+header {
+    background-color: #008080; /* Teal */
+    padding: 15px 20px;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00ffff; /* Cyan hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #00b3b3; /* Bright teal */
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+/* Template Sections */
+.template-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.template-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.template-gallery img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.template-gallery img:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #004d4d; /* Dark teal */
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .template-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .template-gallery img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
