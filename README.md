@@ -1,6 +1,6 @@
-# The Template Studio
+# Template by June
 
-Welcome to The Template Studio, your hub for coding templates, carousel designs, scrapbook layouts, and story templates. This website provides ready-to-use templates for developers, designers, and content creators.
+Welcome to Template by June, your hub for coding templates, carousel designs, scrapbook layouts, and story templates. This website provides ready-to-use templates for developers, designers, and content creators.
 
 ## Features
 - Coding Templates 💻
